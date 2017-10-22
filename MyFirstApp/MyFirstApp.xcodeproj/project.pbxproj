@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C52059551F943DF1002D7353 /* registrBttn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C52059541F943DF1002D7353 /* registrBttn.jpg */; };
+		C52059571F94426F002D7353 /* regbttnJPeg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C52059561F94426E002D7353 /* regbttnJPeg.jpg */; };
+		C52059591F9443F3002D7353 /* registerButton.png in Resources */ = {isa = PBXBuildFile; fileRef = C52059581F9443F3002D7353 /* registerButton.png */; };
+		C520595B1F9444B7002D7353 /* regScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = C520595A1F9444B6002D7353 /* regScreen.png */; };
 		C5C5D1F81F80C9A30024442D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C5D1F71F80C9A30024442D /* AppDelegate.swift */; };
-		C5C5D1FA1F80C9A30024442D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C5D1F91F80C9A30024442D /* ViewController.swift */; };
+		C5C5D1FA1F80C9A30024442D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C5D1F91F80C9A30024442D /* LoginViewController.swift */; };
 		C5C5D1FD1F80C9A30024442D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5C5D1FB1F80C9A30024442D /* Main.storyboard */; };
 		C5C5D1FF1F80C9A30024442D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5C5D1FE1F80C9A30024442D /* Assets.xcassets */; };
 		C5C5D2021F80C9A30024442D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5C5D2001F80C9A30024442D /* LaunchScreen.storyboard */; };
 		C5C5D20D1F80C9A40024442D /* MyFirstAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C5D20C1F80C9A40024442D /* MyFirstAppTests.swift */; };
 		C5C5D2181F80C9A40024442D /* MyFirstAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C5D2171F80C9A40024442D /* MyFirstAppUITests.swift */; };
 		C5C5D2261F81B2C60024442D /* datingPicjpg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C5C5D2251F81B2C60024442D /* datingPicjpg.jpg */; };
+		C5C685401F92DC33009EC345 /* RegstrViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C6853F1F92DC33009EC345 /* RegstrViewController.swift */; };
+		C5C8E4491F8DEC31006EFFD7 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5C8E4481F8DEC31006EFFD7 /* HomePageViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,9 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C52059541F943DF1002D7353 /* registrBttn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = registrBttn.jpg; sourceTree = "<group>"; };
+		C52059561F94426E002D7353 /* regbttnJPeg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = regbttnJPeg.jpg; sourceTree = "<group>"; };
+		C52059581F9443F3002D7353 /* registerButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = registerButton.png; sourceTree = "<group>"; };
+		C520595A1F9444B6002D7353 /* regScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = regScreen.png; sourceTree = "<group>"; };
+		C57A89201F848867002C74AA /* dating2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dating2.jpg; sourceTree = "<group>"; };
 		C5C5D1F41F80C9A30024442D /* MyFirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5C5D1F71F80C9A30024442D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C5C5D1F91F80C9A30024442D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C5C5D1F91F80C9A30024442D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		C5C5D1FC1F80C9A30024442D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C5C5D1FE1F80C9A30024442D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5C5D2011F80C9A30024442D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +60,9 @@
 		C5C5D2171F80C9A40024442D /* MyFirstAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstAppUITests.swift; sourceTree = "<group>"; };
 		C5C5D2191F80C9A40024442D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5C5D2251F81B2C60024442D /* datingPicjpg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = datingPicjpg.jpg; sourceTree = "<group>"; };
+		C5C6853F1F92DC33009EC345 /* RegstrViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegstrViewController.swift; sourceTree = "<group>"; };
+		C5C8E4481F8DEC31006EFFD7 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		C5C8E44E1F908FA5006EFFD7 /* register-button-png-20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "register-button-png-20.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +98,7 @@
 				C5C5D2161F80C9A40024442D /* MyFirstAppUITests */,
 				C5C5D1F51F80C9A30024442D /* Products */,
 				C5C5D2251F81B2C60024442D /* datingPicjpg.jpg */,
+				C57A89201F848867002C74AA /* dating2.jpg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +115,19 @@
 		C5C5D1F61F80C9A30024442D /* MyFirstApp */ = {
 			isa = PBXGroup;
 			children = (
+				C52059541F943DF1002D7353 /* registrBttn.jpg */,
+				C5C8E44E1F908FA5006EFFD7 /* register-button-png-20.png */,
+				C5C6853F1F92DC33009EC345 /* RegstrViewController.swift */,
 				C5C5D1F71F80C9A30024442D /* AppDelegate.swift */,
-				C5C5D1F91F80C9A30024442D /* ViewController.swift */,
+				C5C5D1F91F80C9A30024442D /* LoginViewController.swift */,
 				C5C5D1FB1F80C9A30024442D /* Main.storyboard */,
+				C520595A1F9444B6002D7353 /* regScreen.png */,
+				C52059581F9443F3002D7353 /* registerButton.png */,
+				C52059561F94426E002D7353 /* regbttnJPeg.jpg */,
 				C5C5D1FE1F80C9A30024442D /* Assets.xcassets */,
 				C5C5D2001F80C9A30024442D /* LaunchScreen.storyboard */,
 				C5C5D2031F80C9A30024442D /* Info.plist */,
+				C5C8E4481F8DEC31006EFFD7 /* HomePageViewController.swift */,
 			);
 			path = MyFirstApp;
 			sourceTree = "<group>";
@@ -235,10 +257,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C52059551F943DF1002D7353 /* registrBttn.jpg in Resources */,
 				C5C5D2021F80C9A30024442D /* LaunchScreen.storyboard in Resources */,
+				C52059571F94426F002D7353 /* regbttnJPeg.jpg in Resources */,
 				C5C5D1FF1F80C9A30024442D /* Assets.xcassets in Resources */,
 				C5C5D1FD1F80C9A30024442D /* Main.storyboard in Resources */,
 				C5C5D2261F81B2C60024442D /* datingPicjpg.jpg in Resources */,
+				C520595B1F9444B7002D7353 /* regScreen.png in Resources */,
+				C52059591F9443F3002D7353 /* registerButton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,8 +289,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5C5D1FA1F80C9A30024442D /* ViewController.swift in Sources */,
+				C5C5D1FA1F80C9A30024442D /* LoginViewController.swift in Sources */,
+				C5C685401F92DC33009EC345 /* RegstrViewController.swift in Sources */,
 				C5C5D1F81F80C9A30024442D /* AppDelegate.swift in Sources */,
+				C5C8E4491F8DEC31006EFFD7 /* HomePageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,6 +497,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MyFirstAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eurekasystemsolutions.MyFirstAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -485,6 +514,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MyFirstAppTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eurekasystemsolutions.MyFirstAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";

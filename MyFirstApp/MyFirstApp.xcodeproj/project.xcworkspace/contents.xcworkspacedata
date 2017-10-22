@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:MyFirstApp.xcodeproj">
+      location = "group:../MyFirstApp/Base.lproj/Main.storyboard">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>
